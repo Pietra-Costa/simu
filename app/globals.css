@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definindo variáveis de cor para o modo claro e escuro */
+:root {
+  --background: #F5F5F5; /* Fundo claro */
+  --foreground: #0F0F0F; /* Texto escuro */
+  --card: #FFFFFF; /* Fundo do cartão */
+  --card-foreground: #0F0F0F; /* Texto do cartão */
+  --popover: #FFFFFF; /* Fundo do popover */
+  --popover-foreground: #0F0F0F; /* Texto do popover */
+  --primary: #0A74DA; /* Azul escuro */
+  --primary-foreground: #FFFFFF; /* Texto principal */
+  --secondary: #F5F5F5; /* Segundo fundo */
+  --secondary-foreground: #0A74DA; /* Texto secundário */
+  --muted: #F5F5F5; /* Fundo para elementos menos destacados */
+  --muted-foreground: #737373; /* Texto menos destacado */
+  --accent: #F5F5F5; /* Cor de destaque */
+  --accent-foreground: #0A74DA; /* Texto de destaque */
+  --destructive: #39FF14; /* Verde neon (cor destrutiva) */
+  --destructive-foreground: #FFFFFF; /* Texto da cor destrutiva */
+  --border1: #E0E0E0; /* Cor da borda */
+  --input: #E0E0E0; /* Cor do input */
+  --ring: #0F0F0F; /* Cor do anel de foco */
+  --chart-1: #0A74DA; /* Cor do gráfico 1 */
+  --chart-2: #4CAF50; /* Cor do gráfico 2 (verde) */
+  --chart-3: #FF5722; /* Cor do gráfico 3 (laranja) */
+  --chart-4: #9C27B0; /* Cor do gráfico 4 (roxo) */
+  --chart-5: #E91E63; /* Cor do gráfico 5 (rosa) */
+  --radius: 0.5rem; /* Raio da borda */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #2D2D2D; /* Fundo escuro */
+    --foreground: #F5F5F5; /* Texto claro */
+    --card: #2D2D2D; /* Fundo do cartão */
+    --card-foreground: #F5F5F5; /* Texto do cartão */
+    --popover: #2D2D2D; /* Fundo do popover */
+    --popover-foreground: #F5F5F5; /* Texto do popover */
+    --primary: #F5F5F5; /* Texto claro no modo escuro */
+    --primary-foreground: #0A74DA; /* Texto principal */
+    --secondary: #1C1C1C; /* Segundo fundo escuro */
+    --secondary-foreground: #F5F5F5; /* Texto secundário */
+    --muted: #1C1C1C; /* Fundo para elementos menos destacados */
+    --muted-foreground: #B3B3B3; /* Texto menos destacado */
+    --accent: #1C1C1C; /* Cor de destaque no escuro */
+    --accent-foreground: #F5F5F5; /* Texto de destaque */
+    --destructive: #39FF14; /* Verde neon (cor destrutiva) */
+    --destructive-foreground: #F5F5F5; /* Texto da cor destrutiva */
+    --border1: #1C1C1C; /* Cor da borda no escuro */
+    --input: #1C1C1C; /* Cor do input no escuro */
+    --ring: #D3D3D3; /* Cor do anel de foco no escuro */
+    --chart-1: #2196F3; /* Cor do gráfico 1 (azul) */
+    --chart-2: #4CAF50; /* Cor do gráfico 2 (verde) */
+    --chart-3: #FFC107; /* Cor do gráfico 3 (amarelo) */
+    --chart-4: #9C27B0; /* Cor do gráfico 4 (roxo) */
+    --chart-5: #F44336; /* Cor do gráfico 5 (vermelho) */
+  }
+}
+
+/* Adiciona regras de estilo base usando variáveis CSS */
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Adiciona utilitário personalizado */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
