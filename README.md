@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### SimuTalk
 
-## Getting Started
+SimuTalk é o seu parceiro definitivo para a preparação de entrevistas técnicas. Desenvolvedores de todas as áreas podem agora aprimorar suas habilidades com um simulador de entrevistas alimentado por inteligência artificial de ponta, graças ao Google Gemini. Prepare-se para o sucesso com uma experiência de entrevista completa que inclui perguntas geradas por IA, respostas gravadas por webcam e microfone, e feedback personalizado para ajudá-lo a se destacar.
 
-First, run the development server:
+![image](https://github.com/user-attachments/assets/4febadfe-ffc5-444b-a4ab-1e13c5f0793b)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### 🚀 Recursos
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Entrevistas Realistas: Simule entrevistas técnicas com perguntas geradas por Google Gemini, uma IA avançada que entende e se adapta ao seu nível de habilidade e ao papel desejado.
+- Suporte a Webcam e Microfone: Grave suas respostas usando webcam e microfone para uma simulação mais realista e eficaz.
+- Feedback Imediato: Receba feedback detalhado e sugestões de melhorias após cada simulação para entender suas forças e áreas a melhorar.
+- Customização de Perguntas: Selecione a área de desenvolvimento (front-end, back-end, full-stack, etc.) e receba perguntas específicas para o seu campo de atuação.
+- Análise de Desempenho: Acompanhe seu progresso e veja como você evoluiu ao longo do tempo com análises de desempenho detalhadas.
 
-## Learn More
+  ![image](https://github.com/user-attachments/assets/bc09cbda-ae89-42ba-8752-fca042c0cee4)
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🛠 Tecnologias
+Frontend: React, Tailwind CSS
+Backend: Node.js, Express
+Banco de Dados: PostgreSQL
+IA: Google Gemini
+Autenticação: Clerk
+Deploy: Vercel
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![image](https://github.com/user-attachments/assets/304ab1ca-0bd9-4ce7-a100-fb3eaf15541c)
 
-## Deploy on Vercel
+![image](https://github.com/user-attachments/assets/e001c5f9-9d6a-4d88-bbf6-5621a74cdb31)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
