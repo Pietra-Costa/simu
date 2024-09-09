@@ -2,6 +2,10 @@
 
 SimuTalk é o seu parceiro definitivo para a preparação de entrevistas técnicas. Desenvolvedores de todas as áreas podem agora aprimorar suas habilidades com um simulador de entrevistas alimentado por inteligência artificial de ponta, graças ao Google Gemini. Prepare-se para o sucesso com uma experiência de entrevista completa que inclui perguntas geradas por IA, respostas gravadas por webcam e microfone, e feedback personalizado para ajudá-lo a se destacar.
 
+### Acesso para o SimuTalk
+
+https://simuu.vercel.app/
+
 ![image](https://github.com/user-attachments/assets/4febadfe-ffc5-444b-a4ab-1e13c5f0793b)
 
 
